@@ -78,6 +78,26 @@
           "md5": "b1a2ff975652c21d92696f30b4d0dc1e"
         }
       ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "toymaker-fabric-1.0.0-sources.jar",
+          "url": "toymaker-fabric-1.0.0-sources.jar",
+          "size": 61019,
+          "sha512": "78e87c9ea1e9b38d2ad2e19e3e63b28ddec26947181b75221acfdfc59d88a0f2d4ffe114ad214f69df4c58ee9c670dfdfe319193e2edcbe89658842f1570ab5e",
+          "sha256": "8592da709898accf6a5718da3ab21d19d2c942fa13a76ebef34548af834515f1",
+          "sha1": "d97d9014c7d4b9177851d673bc2f67d80b8ab610",
+          "md5": "3c7b6fecc9c73ee4ce031c65648e9839"
+        }
+      ]
     }
   ]
 }
