@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.moddingplayground.toymaker",
+    "module": "toymaker-fabric",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "toymaker-fabric-1.1.0.jar",
+          "url": "toymaker-fabric-1.1.0.jar",
+          "size": 124227,
+          "sha512": "bbd279e7353d4519c851a6e6ddfb525f13aaaf79d7fc35d3e4223564bf369b90b605e7eddabe51cf70b9b0b7ad33635b2f674aac2e7648727781242a89f058e4",
+          "sha256": "f6e88746b2d95e13816042343560454806a2f2a50fc2419716144410a7d2d3c9",
+          "sha1": "e618f5ef7b98d083c7991263453aa4c81cb0373b",
+          "md5": "944cf8fee3f986d762bf2c3d1d2de052"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.12.12"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.46.2+1.18"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "toymaker-fabric-1.1.0.jar",
+          "url": "toymaker-fabric-1.1.0.jar",
+          "size": 124227,
+          "sha512": "bbd279e7353d4519c851a6e6ddfb525f13aaaf79d7fc35d3e4223564bf369b90b605e7eddabe51cf70b9b0b7ad33635b2f674aac2e7648727781242a89f058e4",
+          "sha256": "f6e88746b2d95e13816042343560454806a2f2a50fc2419716144410a7d2d3c9",
+          "sha1": "e618f5ef7b98d083c7991263453aa4c81cb0373b",
+          "md5": "944cf8fee3f986d762bf2c3d1d2de052"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "toymaker-fabric-1.1.0-sources.jar",
+          "url": "toymaker-fabric-1.1.0-sources.jar",
+          "size": 61749,
+          "sha512": "25e6adb07c0bddf090cd14fc3abaadb57daa6f608fd6cfa6293812a0ba0dd8f47c46fe92a6de81eee55bd8e16314742df893841191f5626c7ca33b9c131327c5",
+          "sha256": "c5d5690daab80a1a3bf6873a844c93f49bb25414cddafcf6f9800ce88140b93e",
+          "sha1": "f60a63edf9818f6df96ab8c79d9a8da67678b994",
+          "md5": "0010195bb81de5b8acb6016e7a6345da"
+        }
+      ]
+    }
+  ]
+}
