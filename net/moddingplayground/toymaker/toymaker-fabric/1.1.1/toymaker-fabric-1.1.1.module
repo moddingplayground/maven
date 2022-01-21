@@ -3,7 +3,7 @@
   "component": {
     "group": "net.moddingplayground.toymaker",
     "module": "toymaker-fabric",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "toymaker-fabric-1.0.0.jar",
-          "url": "toymaker-fabric-1.0.0.jar",
-          "size": 122781,
-          "sha512": "e0157b7d643eac9665f15c360ae4a157665f462e8d550133868b55e4a22aca526d19f85aa9532c335015be5d4bb152a167c97f765821d4334306d3677f85cebc",
-          "sha256": "d81f489d69fbe5cb2a3c133ca9a2990363db0071cd7043de2a0217197035c175",
-          "sha1": "034730d1893ac2938ee3e3a0ccc153b407f615fb",
-          "md5": "b1a2ff975652c21d92696f30b4d0dc1e"
+          "name": "toymaker-fabric-1.1.1.jar",
+          "url": "toymaker-fabric-1.1.1.jar",
+          "size": 123460,
+          "sha512": "18dc43813985065ad86f4c7bb83ca1da43d5dac08f1293901cc31d2ca9acba6b60a9552243058d695c9a6939d18573f89fb09af0e7a60d75f2574d78984bb45c",
+          "sha256": "08ffa71c411f62999d29878f9287c3759948182b3a1d360d3171a8824aa1c56e",
+          "sha1": "41c2b361d346393b536abb37d3c6c2254581d73f",
+          "md5": "80e8274070698bdbf6073e7cf1aecd6b"
         }
       ]
     },
@@ -58,24 +58,17 @@
           "version": {
             "requires": "0.46.2+1.18"
           }
-        },
-        {
-          "group": "com.terraformersmc",
-          "module": "modmenu",
-          "version": {
-            "requires": "3.0.1"
-          }
         }
       ],
       "files": [
         {
-          "name": "toymaker-fabric-1.0.0.jar",
-          "url": "toymaker-fabric-1.0.0.jar",
-          "size": 122781,
-          "sha512": "e0157b7d643eac9665f15c360ae4a157665f462e8d550133868b55e4a22aca526d19f85aa9532c335015be5d4bb152a167c97f765821d4334306d3677f85cebc",
-          "sha256": "d81f489d69fbe5cb2a3c133ca9a2990363db0071cd7043de2a0217197035c175",
-          "sha1": "034730d1893ac2938ee3e3a0ccc153b407f615fb",
-          "md5": "b1a2ff975652c21d92696f30b4d0dc1e"
+          "name": "toymaker-fabric-1.1.1.jar",
+          "url": "toymaker-fabric-1.1.1.jar",
+          "size": 123460,
+          "sha512": "18dc43813985065ad86f4c7bb83ca1da43d5dac08f1293901cc31d2ca9acba6b60a9552243058d695c9a6939d18573f89fb09af0e7a60d75f2574d78984bb45c",
+          "sha256": "08ffa71c411f62999d29878f9287c3759948182b3a1d360d3171a8824aa1c56e",
+          "sha1": "41c2b361d346393b536abb37d3c6c2254581d73f",
+          "md5": "80e8274070698bdbf6073e7cf1aecd6b"
         }
       ]
     },
@@ -89,13 +82,13 @@
       },
       "files": [
         {
-          "name": "toymaker-fabric-1.0.0-sources.jar",
-          "url": "toymaker-fabric-1.0.0-sources.jar",
-          "size": 61019,
-          "sha512": "78e87c9ea1e9b38d2ad2e19e3e63b28ddec26947181b75221acfdfc59d88a0f2d4ffe114ad214f69df4c58ee9c670dfdfe319193e2edcbe89658842f1570ab5e",
-          "sha256": "8592da709898accf6a5718da3ab21d19d2c942fa13a76ebef34548af834515f1",
-          "sha1": "d97d9014c7d4b9177851d673bc2f67d80b8ab610",
-          "md5": "3c7b6fecc9c73ee4ce031c65648e9839"
+          "name": "toymaker-fabric-1.1.1-sources.jar",
+          "url": "toymaker-fabric-1.1.1-sources.jar",
+          "size": 61186,
+          "sha512": "388b86a0afe445bb11bbd0c7fc1aba4016682a2774ad1be51cf91404be3fbfa83c44c9160cde48cd940c0641f851a5a94088c2e85a16eddb991e308d5afb434d",
+          "sha256": "fcf8a8e27ff869a5a4e76f9b2c78f4cac1c49f14a008dedca1fa7f3e6ba0a72e",
+          "sha1": "d2b21ab19c7a666830e21e773e6ccdb68465b636",
+          "md5": "1922aea2e3239484422b36c889d2c67e"
         }
       ]
     }
