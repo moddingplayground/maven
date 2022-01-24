@@ -78,6 +78,26 @@
           "md5": "1ee7fff1780b49a45a352ad09a9124fa"
         }
       ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "frame-fabric-0.1.0-sources.jar",
+          "url": "frame-fabric-0.1.0-sources.jar",
+          "size": 16761,
+          "sha512": "774972bedbcf24c42e22a370243effa6b00ddeced455fa4f697a6fb1ab1119f7785fb272fbc843115ba6553cfd287461d7493ba98b8ee0a740b1e600ad03ae8a",
+          "sha256": "192fc3ebf2ece75d0cfa18b5bb5352f1f753d39c5a78e7e8d403e06caabaf498",
+          "sha1": "69980ea4202ac0b354bb8d19169c328ab2cb3e98",
+          "md5": "2f721003ce880a2563a004a202af66ef"
+        }
+      ]
     }
   ]
 }
