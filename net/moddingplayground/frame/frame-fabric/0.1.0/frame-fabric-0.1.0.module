@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.moddingplayground.frame",
+    "module": "frame-fabric",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "frame-fabric-0.1.0.jar",
+          "url": "frame-fabric-0.1.0.jar",
+          "size": 32323,
+          "sha512": "65de27fcac130823a6130f6f3c7a806fd1b77b6a3ceb41001af894755beafce08285a7b6913fa6335423822565f0879305beb34bb76ba766007d1426ae53842c",
+          "sha256": "a43be1879444d755835480507dd0b19b5e688f98f5aa72cacd85dcd0c7466d23",
+          "sha1": "7a3f3dca9f24ce5137a9f2f989dbf66c6bfcd6bd",
+          "md5": "1ee7fff1780b49a45a352ad09a9124fa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.12.12"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.46.2+1.18"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "3.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frame-fabric-0.1.0.jar",
+          "url": "frame-fabric-0.1.0.jar",
+          "size": 32323,
+          "sha512": "65de27fcac130823a6130f6f3c7a806fd1b77b6a3ceb41001af894755beafce08285a7b6913fa6335423822565f0879305beb34bb76ba766007d1426ae53842c",
+          "sha256": "a43be1879444d755835480507dd0b19b5e688f98f5aa72cacd85dcd0c7466d23",
+          "sha1": "7a3f3dca9f24ce5137a9f2f989dbf66c6bfcd6bd",
+          "md5": "1ee7fff1780b49a45a352ad09a9124fa"
+        }
+      ]
+    }
+  ]
+}
