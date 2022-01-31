@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.moddingplayground.frame",
+    "module": "frame-fabric",
+    "version": "0.4.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "frame-fabric-0.4.3.jar",
+          "url": "frame-fabric-0.4.3.jar",
+          "size": 143031,
+          "sha512": "9888a5027f7afb48dbbff7af8b5eb911e6c6d7b2fe0562ea06c35ca41b8402caba396730dda3123c7f045dfa57c6f4a0eea5eecc66135a2284f08f0bce32a736",
+          "sha256": "824902db51bd10ee1fed8bdd737c785e0ed677bafcbdba348276a6a09ec11552",
+          "sha1": "9ff7c33b6c714036df3fb73ea91242d4635d73cb",
+          "md5": "79e8dec503b2d8dc1225a36e98c1705e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.12.12"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.46.2+1.18"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "3.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "frame-fabric-0.4.3.jar",
+          "url": "frame-fabric-0.4.3.jar",
+          "size": 143031,
+          "sha512": "9888a5027f7afb48dbbff7af8b5eb911e6c6d7b2fe0562ea06c35ca41b8402caba396730dda3123c7f045dfa57c6f4a0eea5eecc66135a2284f08f0bce32a736",
+          "sha256": "824902db51bd10ee1fed8bdd737c785e0ed677bafcbdba348276a6a09ec11552",
+          "sha1": "9ff7c33b6c714036df3fb73ea91242d4635d73cb",
+          "md5": "79e8dec503b2d8dc1225a36e98c1705e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "frame-fabric-0.4.3-sources.jar",
+          "url": "frame-fabric-0.4.3-sources.jar",
+          "size": 77512,
+          "sha512": "14fb413e22ccb7cd253cad6c314d966cc13b1dab940d7f641b71442658007391b4bf385f1973123a552926f1f217331b4f201b649528e5d0de433658021c2ac8",
+          "sha256": "c8bb9e4bd2562a69ea466e22d3f27685981b03074b656a6f5e3b0bcc5a1653bf",
+          "sha1": "c9600f316728498297bc6221f3946bbfe3a15579",
+          "md5": "4afd3de97f7254d601a29217843d81da"
+        }
+      ]
+    }
+  ]
+}
