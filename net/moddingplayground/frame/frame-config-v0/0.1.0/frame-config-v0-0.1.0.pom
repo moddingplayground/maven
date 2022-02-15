@@ -63,7 +63,7 @@
     <dependency>
       <groupId>me.shedaniel.cloth</groupId>
       <artifactId>cloth-config-fabric</artifactId>
-      <version>6.1.50</version>
+      <version>6.2.57</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
