@@ -15,13 +15,13 @@
     <dependency>
       <groupId>net.fabricmc</groupId>
       <artifactId>fabric-loader</artifactId>
-      <version>0.13.2</version>
+      <version>0.13.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>net.fabricmc.fabric-api</groupId>
       <artifactId>fabric-api</artifactId>
-      <version>0.46.4+1.18</version>
+      <version>0.46.6+1.18</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
