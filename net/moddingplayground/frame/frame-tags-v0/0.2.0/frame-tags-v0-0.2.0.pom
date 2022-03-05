@@ -3,8 +3,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.moddingplayground.frame</groupId>
-  <artifactId>frame-loot-tables-v0</artifactId>
-  <version>0.1.1</version>
+  <artifactId>frame-tags-v0</artifactId>
+  <version>0.2.0</version>
   <dependencies>
     <dependency>
       <groupId>net.fabricmc</groupId>
