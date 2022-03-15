@@ -3,15 +3,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.moddingplayground.frame</groupId>
-  <artifactId>frame-blocks-v0</artifactId>
-  <version>0.1.2</version>
+  <artifactId>frame-api-base</artifactId>
+  <version>0.2.0</version>
   <dependencies>
-    <dependency>
-      <groupId>net.moddingplayground.frame</groupId>
-      <artifactId>frame-api-base</artifactId>
-      <version>0.2.0</version>
-      <scope>compile</scope>
-    </dependency>
     <dependency>
       <groupId>net.fabricmc</groupId>
       <artifactId>fabric-loader</artifactId>

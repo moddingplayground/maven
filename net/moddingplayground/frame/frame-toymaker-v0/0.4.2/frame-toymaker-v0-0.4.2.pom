@@ -9,7 +9,7 @@
     <dependency>
       <groupId>net.moddingplayground.frame</groupId>
       <artifactId>frame-api-base</artifactId>
-      <version>0.1.5</version>
+      <version>0.2.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
