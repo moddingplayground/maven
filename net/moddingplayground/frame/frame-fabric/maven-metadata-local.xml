@@ -3,8 +3,8 @@
   <groupId>net.moddingplayground.frame</groupId>
   <artifactId>frame-fabric</artifactId>
   <versioning>
-    <latest>0.16.1+1.18.2</latest>
-    <release>0.16.1+1.18.2</release>
+    <latest>0.16.2+1.18.2</latest>
+    <release>0.16.2+1.18.2</release>
     <versions>
       <version>0.1.0</version>
       <version>0.1.1</version>
@@ -48,7 +48,8 @@
       <version>0.15.2+1.18.2</version>
       <version>0.16.0+1.18.2</version>
       <version>0.16.1+1.18.2</version>
+      <version>0.16.2+1.18.2</version>
     </versions>
-    <lastUpdated>20220315012648</lastUpdated>
+    <lastUpdated>20220411122826</lastUpdated>
   </versioning>
 </metadata>
