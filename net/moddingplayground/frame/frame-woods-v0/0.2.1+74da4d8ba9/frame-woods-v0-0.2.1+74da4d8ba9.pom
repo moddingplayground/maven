@@ -3,13 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.moddingplayground.frame</groupId>
-  <artifactId>frame-game-rules-v0</artifactId>
-  <version>0.2.4+e7ce56a6a9</version>
+  <artifactId>frame-woods-v0</artifactId>
+  <version>0.2.1+74da4d8ba9</version>
   <dependencies>
     <dependency>
       <groupId>net.moddingplayground.frame</groupId>
-      <artifactId>frame-api-base</artifactId>
-      <version>0.2.1+906ebc04a9</version>
+      <artifactId>frame-rendering-v0</artifactId>
+      <version>0.1.5+906ebc04a9</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
