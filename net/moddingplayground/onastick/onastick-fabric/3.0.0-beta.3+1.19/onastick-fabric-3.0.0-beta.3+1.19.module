@@ -1,0 +1,142 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.moddingplayground.onastick",
+    "module": "onastick-fabric",
+    "version": "3.0.0-beta.3+1.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "onastick-fabric-3.0.0-beta.3+1.19.jar",
+          "url": "onastick-fabric-3.0.0-beta.3+1.19.jar",
+          "size": 67916,
+          "sha512": "eebf57ac02edd6737fd0937ca7e50a42f844485afe36b9c44b21e02c929627b01904d158453b677ea327e33d31e89647127e6fc8f5a7b5f8735b62cfbb7642a9",
+          "sha256": "b35062a02e159d3ab869a3c8b27e429eecaf45e00cfb01d3732bf58898c80b79",
+          "sha1": "66d43b5556bbfbaf01ce847904847f4b153919cc",
+          "md5": "cf3890b331f0de7b160e0a25311c1952"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "blue.endless",
+          "module": "jankson",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.8"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.57.0+1.19"
+          }
+        },
+        {
+          "group": "net.moddingplayground.frame",
+          "module": "frame-fabric",
+          "version": {
+            "requires": "0.20.1+1.19"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "4.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "onastick-fabric-3.0.0-beta.3+1.19.jar",
+          "url": "onastick-fabric-3.0.0-beta.3+1.19.jar",
+          "size": 67916,
+          "sha512": "eebf57ac02edd6737fd0937ca7e50a42f844485afe36b9c44b21e02c929627b01904d158453b677ea327e33d31e89647127e6fc8f5a7b5f8735b62cfbb7642a9",
+          "sha256": "b35062a02e159d3ab869a3c8b27e429eecaf45e00cfb01d3732bf58898c80b79",
+          "sha1": "66d43b5556bbfbaf01ce847904847f4b153919cc",
+          "md5": "cf3890b331f0de7b160e0a25311c1952"
+        }
+      ]
+    }
+  ]
+}
