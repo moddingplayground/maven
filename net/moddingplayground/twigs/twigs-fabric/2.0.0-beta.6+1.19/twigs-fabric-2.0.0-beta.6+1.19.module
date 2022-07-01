@@ -1,0 +1,142 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.moddingplayground.twigs",
+    "module": "twigs-fabric",
+    "version": "2.0.0-beta.6+1.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "twigs-fabric-2.0.0-beta.6+1.19.jar",
+          "url": "twigs-fabric-2.0.0-beta.6+1.19.jar",
+          "size": 821279,
+          "sha512": "b287a4af43dd145dfa86cf5211d4cad13986da5663ca0499440a1c5746c0e14353568c3ca3985da0ef1291b934f8c7270f0a469b92fab93336da828255ffd6af",
+          "sha256": "ddb87daeba40987dad6616f1ad675e53fccd49052aadb08d9e294fde7fbaed00",
+          "sha1": "9c401863769c0f84d683d491fa9dbaa8f6816615",
+          "md5": "c9c4727ba46a758d320cdfe0e074c7e9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "blue.endless",
+          "module": "jankson",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.8"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.57.0+1.19"
+          }
+        },
+        {
+          "group": "net.moddingplayground.frame",
+          "module": "frame-fabric",
+          "version": {
+            "requires": "0.20.1+1.19"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "4.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twigs-fabric-2.0.0-beta.6+1.19.jar",
+          "url": "twigs-fabric-2.0.0-beta.6+1.19.jar",
+          "size": 821279,
+          "sha512": "b287a4af43dd145dfa86cf5211d4cad13986da5663ca0499440a1c5746c0e14353568c3ca3985da0ef1291b934f8c7270f0a469b92fab93336da828255ffd6af",
+          "sha256": "ddb87daeba40987dad6616f1ad675e53fccd49052aadb08d9e294fde7fbaed00",
+          "sha1": "9c401863769c0f84d683d491fa9dbaa8f6816615",
+          "md5": "c9c4727ba46a758d320cdfe0e074c7e9"
+        }
+      ]
+    }
+  ]
+}
