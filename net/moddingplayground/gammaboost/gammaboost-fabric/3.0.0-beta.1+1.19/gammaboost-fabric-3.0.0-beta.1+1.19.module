@@ -1,0 +1,142 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.moddingplayground.gammaboost",
+    "module": "gammaboost-fabric",
+    "version": "3.0.0-beta.1+1.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "gammaboost-fabric-3.0.0-beta.1+1.19.jar",
+          "url": "gammaboost-fabric-3.0.0-beta.1+1.19.jar",
+          "size": 13153,
+          "sha512": "fe959aebb74e13565fb25778e0ff8e644c5923860d20263d0314a1bd5187c59d74ad7b4f6f7d88ef75ff41d0e64b8f5eb463b750322efbc8a78559dca107b7c9",
+          "sha256": "0b718622f85a5a2a4d6ee9a9f0067927d669d5d83e278bd3b833c995eb51b367",
+          "sha1": "9707c90ab14149264c0abf76e878533ca49b6eac",
+          "md5": "7b88e43c482ac232c710c117faa441f4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "blue.endless",
+          "module": "jankson",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.8"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.57.0+1.19"
+          }
+        },
+        {
+          "group": "net.moddingplayground.frame",
+          "module": "frame-fabric",
+          "version": {
+            "requires": "0.20.1+1.19"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "4.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gammaboost-fabric-3.0.0-beta.1+1.19.jar",
+          "url": "gammaboost-fabric-3.0.0-beta.1+1.19.jar",
+          "size": 13153,
+          "sha512": "fe959aebb74e13565fb25778e0ff8e644c5923860d20263d0314a1bd5187c59d74ad7b4f6f7d88ef75ff41d0e64b8f5eb463b750322efbc8a78559dca107b7c9",
+          "sha256": "0b718622f85a5a2a4d6ee9a9f0067927d669d5d83e278bd3b833c995eb51b367",
+          "sha1": "9707c90ab14149264c0abf76e878533ca49b6eac",
+          "md5": "7b88e43c482ac232c710c117faa441f4"
+        }
+      ]
+    }
+  ]
+}
