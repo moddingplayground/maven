@@ -3,11 +3,12 @@
   <groupId>net.moddingplayground.frame</groupId>
   <artifactId>frame-registries-v0</artifactId>
   <versioning>
-    <latest>0.1.0+5f5f6152a9</latest>
-    <release>0.1.0+5f5f6152a9</release>
+    <latest>0.1.1+0e0ec74ea9</latest>
+    <release>0.1.1+0e0ec74ea9</release>
     <versions>
       <version>0.1.0+5f5f6152a9</version>
+      <version>0.1.1+0e0ec74ea9</version>
     </versions>
-    <lastUpdated>20220718161420</lastUpdated>
+    <lastUpdated>20220718165111</lastUpdated>
   </versioning>
 </metadata>
