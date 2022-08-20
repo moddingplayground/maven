@@ -3,13 +3,19 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.moddingplayground.frame</groupId>
-  <artifactId>frame-toymaker-v0</artifactId>
-  <version>0.6.1+b13741c3a9</version>
+  <artifactId>frame-enchantments-v0</artifactId>
+  <version>0.3.0+86e9f5dfa9</version>
   <dependencies>
     <dependency>
       <groupId>net.fabricmc</groupId>
       <artifactId>fabric-loader</artifactId>
       <version>0.14.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.Chocohead</groupId>
+      <artifactId>Fabric-ASM</artifactId>
+      <version>v2.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
