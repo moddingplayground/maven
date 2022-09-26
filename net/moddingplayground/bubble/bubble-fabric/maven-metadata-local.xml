@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.mcdivisions.bubble</groupId>
+  <artifactId>bubble-fabric</artifactId>
+  <versioning>
+    <latest>0.1.0+1.19-fabric</latest>
+    <release>0.1.0+1.19-fabric</release>
+    <versions>
+      <version>0.1.0+1.19-fabric</version>
+    </versions>
+    <lastUpdated>20220926160741</lastUpdated>
+  </versioning>
+</metadata>
